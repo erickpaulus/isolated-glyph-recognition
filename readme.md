@@ -53,7 +53,7 @@ python -m venv venv
 source venv/bin/activate  # or venv\
 ```
 
-## How to run Preprosessing
+## How to run preprosessing
 After download the dataset from the [website](http://amadi.univ-lr.fr/ICFHR2018_Contest/index.php/download-1234-all), then unzip the file.
 
 To run the preprocessing script, use the following command:
@@ -69,7 +69,7 @@ python TestSetConverter.py --image_dir "C:\2018ICFHR\Test-ChallengeC-Track3-Sund
 python ExpModifiedCNNV1.py --dataset ICFHR18_OB --nb_class 133 --model_index 12 --resize_meth bilinear --color_pad gray_white --img_size 75  --path_out expExpModifiedCNNV1OB_gray_white --weight 'imagenet'
 ```
 
-## ## How to run Inference
+## How to run inference
 ```
 python InferenceEnsembelModifiedCNNV1ConvMetNonPersent.py --dataset ICFHR18_OS --nb_class 60 --resize_meth bilinear --color_pad gray_white --img_size 75  --path_out InferenceEnsembelModifiedCNNV1ConvMetNonPersent_gray_white --weight imagenet
 ```
