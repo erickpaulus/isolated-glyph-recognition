@@ -1,1 +1,0 @@
-# isolated-glyph-recognition
