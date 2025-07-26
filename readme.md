@@ -71,4 +71,12 @@ The code in this repository was used for the publication  (under review) mention
 
 ```
 to be informed soon
+@article{PAULUS2025,
+title = {},
+author = {Erick Paulus and Jean-Christophe Burie and Fons J. Verbeek},
+journal = {},
+year = {},
+issn = {},
+doi = {},
+}
 ```
