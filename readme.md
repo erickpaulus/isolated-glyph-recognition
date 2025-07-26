@@ -19,23 +19,19 @@ The pipeline includes the following stages:
 2. **Preprocessing**  
    - Grayscale conversion 
    - Squaring, and padding are applied to standardize the input data for the CNN model
-   - The code can be seen in folder [002-Preprocessing](./002-Preprocessing)
-
-
+   
 3. **Data Augmentation**  
    - Techniques such as rotation, scaling, shearing, and shifting to expand training data.
    - Helps improve model generalization.
-   - The augmentation code is part of the classification code in folder 04-classification [04-classification](./04-classification)
-
+   
 4. **Classification**  
    - Implementation Transfer Learning and Fine tuning hyperparameters.
    - Trained Ensemble Customized CNN models.
-   - The code can be seen in folder [04-classification](./04-classification)
-
+  
 5. **Evaluation**  
    - Performance measured using metrics like balanced accuracy, confusion matrix, .
    - Error analysis.
-   The evaluation code is part of the classification code in folder 04-classification [04-classification](./04-classification)
+  
 
 Our experimental results demonstrate that the proposed model outperforms existing approaches in isolated glyph classification accuracy. This work lays a solid foundation for optimizing deep learning models in resource-constrained scenarios and contributes to advancing the digitization and preservation of historical documents.
 
