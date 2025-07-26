@@ -55,16 +55,7 @@ python -m venv venv
 source venv/bin/activate  # or venv\
 ```
 
-## How to run preprosessing
-After download the dataset from the [website](http://amadi.univ-lr.fr/ICFHR2018_Contest/index.php/download-1234-all), then unzip the file.
 
-To run the preprocessing script, use the following command:
-
-```
-python TrainingSetConverter.py --image_dir "D:\2018ICFHR\Train-ChallengeC-Track3-Sunda\sundanese_train_image"  --img_size 224  --gray --gt --padding_color white  --dataset_prefix ICFHR18_OS
-
-python TestSetConverter.py --image_dir "C:\2018ICFHR\Test-ChallengeC-Track3-Sundanese\sundanese_test_image" --label_file "C:\2018ICFHR\Evaluation-ChallengeC-Track3-Sundanese/sundanese_gt_test.txt" --img_size 224 --gray --gt --padding_color white --dataset_prefix ICFHR18_OS
-```
 
 ## How to run training
 ```
