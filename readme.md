@@ -47,8 +47,12 @@ git clone https://github.com/your-username/isolated-glyph-recognition.git
 cd isolated-glyph-recognition
 
 # (Optional) Create and activate a virtual environment
-python -m venv venv
+python3.12 -m venv venv
 source venv/bin/activate  # or venv\
+
+# (Optional) Create and activate a virtual environment via conda
+conda create -n myenv python=3.12.3
+conda activate myenv
 
 # install libraries
 pip install -r requirements.txt
