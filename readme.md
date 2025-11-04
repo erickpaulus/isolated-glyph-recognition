@@ -69,14 +69,14 @@ python ExpModifiedCNNV1.py --dataset ICFHR18_OB --nb_class 133 --model_index 12 
 ```
 python InferenceEnsembelModifiedCNNV1ConvMetNonPersent.py --dataset ICFHR18_OS --nb_class 60 --resize_meth bilinear --color_pad gray_white --img_size 75  --path_out InferenceEnsembelModifiedCNNV1ConvMetNonPersent_gray_white --weight imagenet
 ```
-
-The code in this repository was used for the publication  mentioned below. If you find this code useful, please cite [our paper](https://doi.org/10.1016/j.patcog.2025.112616)
-
 ## Sample Structure dataset and models for inference
 please download in [here](https://drive.google.com/drive/folders/1mPe8U3E-LRJB2M70XXLThu1kZz8zmihx?usp=sharing)
 
+
+## Citation
+The code in this repository was used for the publication  mentioned below. If you find this code useful, please cite [our paper](https://doi.org/10.1016/j.patcog.2025.112616)
+
 ```
-to be informed soon
 @article{PAULUS2025,
 title = {Supervised Learning for Low-Resource Isolated Glyph Recognition in Palm Leaf Manuscripts},
 author = {Erick Paulus and Jean-Christophe Burie and Fons J. Verbeek},
@@ -86,6 +86,7 @@ issn = {0031-3203},
 doi = {https://doi.org/10.1016/j.patcog.2025.112616},
 }
 ```
+
 
 
 
