@@ -70,7 +70,7 @@ python ExpModifiedCNNV1.py --dataset ICFHR18_OB --nb_class 133 --model_index 12 
 python InferenceEnsembelModifiedCNNV1ConvMetNonPersent.py --dataset ICFHR18_OS --nb_class 60 --resize_meth bilinear --color_pad gray_white --img_size 75  --path_out InferenceEnsembelModifiedCNNV1ConvMetNonPersent_gray_white --weight imagenet
 ```
 
-The code in this repository was used for the publication  (under review) mentioned below. If you find this code useful, please cite our paper
+The code in this repository was used for the publication  mentioned below. If you find this code useful, please cite [our paper](https://doi.org/10.1016/j.patcog.2025.112616)
 
 ```
 to be informed soon
@@ -83,4 +83,5 @@ issn = {0031-3203},
 doi = {https://doi.org/10.1016/j.patcog.2025.112616},
 }
 ```
+
 
