@@ -75,11 +75,12 @@ The code in this repository was used for the publication  (under review) mention
 ```
 to be informed soon
 @article{PAULUS2025,
-title = {},
+title = {Supervised Learning for Low-Resource Isolated Glyph Recognition in Palm Leaf Manuscripts},
 author = {Erick Paulus and Jean-Christophe Burie and Fons J. Verbeek},
-journal = {},
-year = {},
-issn = {},
-doi = {},
+journal = {Pattern Recognition},
+year = {2025},
+issn = {0031-3203},
+doi = {https://doi.org/10.1016/j.patcog.2025.112616},
 }
 ```
+
