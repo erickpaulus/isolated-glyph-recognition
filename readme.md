@@ -72,6 +72,9 @@ python InferenceEnsembelModifiedCNNV1ConvMetNonPersent.py --dataset ICFHR18_OS -
 
 The code in this repository was used for the publication  mentioned below. If you find this code useful, please cite [our paper](https://doi.org/10.1016/j.patcog.2025.112616)
 
+## Sample Structure dataset and models for inference
+please download in [here](https://drive.google.com/drive/folders/1mPe8U3E-LRJB2M70XXLThu1kZz8zmihx?usp=sharing)
+
 ```
 to be informed soon
 @article{PAULUS2025,
@@ -83,5 +86,6 @@ issn = {0031-3203},
 doi = {https://doi.org/10.1016/j.patcog.2025.112616},
 }
 ```
+
 
 
